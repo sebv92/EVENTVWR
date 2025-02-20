@@ -1,0 +1,21 @@
+## exercice 1 ##
+----------------
+Dans l'interface Event viewer, on peut voir les journaux Windows et les journaux edes applications et des services.
+
+## exercice 2 ##
+----------------
+Crée un filtre dans le journal Sécurité pour montrer uniquement les événements de connexion des dernières 24 heures : Aller dans filtrer le journal actuel et selectionner ces 24 dernières heures.
+
+Analyse un événement d'information du journal Système : que te dit l'ID de l'événement ? ID 5379 : succès de l'audit sur le logging utilisateur.
+
+## exercice 3 ##
+----------------
+Trouve un événement critique ou d'erreur récent dans le journal Système : 
+Erreur le 19/02/2025 à 10:59:51 sur le disk, ID événement 11 : Le pilote a détecté une erreur du contrôleur sur \Device\Harddisk1\DR2.
+ 
+Utilise l'ID de l'événement pour rechercher une solution ou des informations supplémentaires en ligne :
+Problème lié au disque dur ou à son contrôleur
+Ouvrir l'invite de commandes en tant qu'administrateur.
+Exécutez la commande chkdsk /f /r DR2 pour vérifier et réparer les erreurs du disque.
+
+
