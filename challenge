@@ -1,0 +1,6 @@
+Configure la vue personnalisée dans l'Event Viewer avec les critères demandés.
+
+  
+Attribue un nom descriptif à la vue personnalisée.
+Exporte la vue au format XML.
+Sur un dépôt GitHub, ajoute le fichier XML et inclue un bref README expliquant ta vue personnalisée.
